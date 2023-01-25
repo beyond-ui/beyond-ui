@@ -1,0 +1,12 @@
+{
+  "name": "beyond-ui",
+  "author": "Chetan Majithiya",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.4.1"
+  }
+}

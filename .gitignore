@@ -1,0 +1,10 @@
+node_modules/
+dist/
+
+# IDE configs
+.idea
+/.idea
+./.idea
+
+# Yarn
+yarn-error.log
