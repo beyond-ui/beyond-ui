@@ -1,0 +1,32 @@
+{
+  "name": "@prana-ui/bui",
+  "version": "1.0.0-alpha.0",
+  "description": "React Components by Beyond-ui.io",
+  "scripts": {
+    "build": "rimraf dist && node ./esbuild.mjs && yarn ts-types",
+    "ts-types": "tsc --emitDeclarationOnly --outDir dist"
+  },
+  "keywords": [
+    "button",
+    "react-button",
+    "react-component",
+    "prana-ui"
+  ],
+  "author": "Chetan Majithiya",
+  "license": "MIT",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

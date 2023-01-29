@@ -1,0 +1,7 @@
+{
+  "extends": "../../config/typescript/react.config.json",
+  "include": ["components"],
+  "compilerOptions": {
+    "declarationDir": "dist"
+  }
+}
