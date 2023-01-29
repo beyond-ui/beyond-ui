@@ -5,21 +5,9 @@ React Components Library
 ## Installation
 
 ```sh
-yarn add @prana-ui/bui
+yarn add @beyondui/react
 
 # or
 
-npm i @prana-ui/bui
-```
-
-## Import component
-
-```jsx
-import { BuiButton } from "@prana-ui/bui"
-```
-
-## Usage Example
-
-```jsx
-<BuiButton>Button</BuiButton>
+npm i @beyondui/react
 ```

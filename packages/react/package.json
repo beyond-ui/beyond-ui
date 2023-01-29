@@ -1,24 +1,24 @@
 {
-  "name": "@prana-ui/bui",
-  "version": "1.0.0-alpha.0",
+  "name": "@beyondui/react",
+  "version": "1.0.0-alpha.2",
   "description": "React Components by Beyond-ui.io",
   "scripts": {
     "build": "rimraf dist && node ./esbuild.mjs && yarn ts-types",
     "ts-types": "tsc --emitDeclarationOnly --outDir dist"
   },
   "keywords": [
-    "button",
-    "react-button",
-    "react-component",
-    "prana-ui"
+    "react-components",
+    "modern-ui",
+    "beyond-ui"
   ],
   "author": "Chetan Majithiya",
   "license": "MIT",
-  "devDependencies": {},
-  "peerDependencies": {
-    "react": "^18.2.0",
-    "@emotion/react": "^11.9.3",
-    "@emotion/styled": "^11.9.3"
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "esbuild": "^0.17.5",
+    "esbuild-node-externals": "^1.6.0",
+    "rimraf": "^4.1.2",
+    "typescript": "^4.9.4"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -28,5 +28,10 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "react": "^18.2.0"
   }
 }

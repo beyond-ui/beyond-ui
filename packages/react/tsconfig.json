@@ -1,7 +1,19 @@
 {
-  "extends": "../../config/typescript/react.config.json",
   "include": ["components"],
   "compilerOptions": {
-    "declarationDir": "dist"
-  }
+    "target": "esnext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "declarationDir": "dist",
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["node_modules", "dist"]
 }
