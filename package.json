@@ -7,8 +7,8 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "echo 'test'",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "echo 'test'"
   },
   "devDependencies": {
     "commitizen": "^4.3.0",
