@@ -1,2 +1,7 @@
 export * from './buiStyled'
 export * from './buiFlexBox'
+export * from './buiBox'
+export * from './buiButton'
+export * from './buiDivider'
+export * from './buiLayout'
+export * from './buiTypography'
