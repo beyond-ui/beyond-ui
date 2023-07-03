@@ -1,6 +1,6 @@
 {
   "name": "@beyondui/react",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "description": "React Components by Beyond-ui.io",
   "scripts": {
     "build": "rimraf dist && node ./esbuild.mjs && yarn ts-types",

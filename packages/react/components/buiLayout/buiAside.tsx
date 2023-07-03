@@ -1,5 +1,7 @@
 import React, { CSSProperties, FC, ReactNode, useMemo } from 'react'
-import { BuiBox, BuiFlexItem, BuiFlexItemProps, BuiStyled } from '@prana-ui/bui/components'
+import {BuiFlexItem, BuiFlexItemProps} from "../buiFlexBox";
+import { BuiStyled } from '../buiStyled';
+import {BuiBox} from "../buiBox";
 
 export interface BuiAsideProps extends BuiFlexItemProps {
   children?: ReactNode

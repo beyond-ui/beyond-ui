@@ -1,6 +1,6 @@
 import React, { FC, ReactNode } from 'react'
 import { BuiRootComponentCommonTypes } from '../buiStyled'
-import { BuiFlexItem, BuiFlexItemProps } from '@prana-ui/bui/components'
+import { BuiFlexItem, BuiFlexItemProps } from '../buiFlexBox'
 
 export interface BuiFooterProps extends BuiRootComponentCommonTypes, BuiFlexItemProps {
   children?: ReactNode
