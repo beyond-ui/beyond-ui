@@ -11,15 +11,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://beyond-ui.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'beyond-ui', // Usually your GitHub org/user name.
+  projectName: 'beyond-ui', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -70,11 +70,10 @@ const config = {
             src: 'img/logo.svg',
           },
           items: [
-            {
-              type: 'doc',
-              docId: 'intro',
+           {
               position: 'left',
               label: 'Docs',
+             to: '/docs/category/getting-started'
             },
             {to: '/blog', label: 'Examples', position: 'left'},
             {
@@ -93,11 +92,11 @@ const config = {
               items: [
                 {
                   label: 'Docs',
-                  to: '/docs/intro',
+                  to: '/docs/category/getting-started',
                 },
                 {
                   label: 'Examples',
-                  to: '/docs/intro',
+                  to: '/docs/',
                 },
               ],
             },
